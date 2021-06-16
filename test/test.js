@@ -44,7 +44,7 @@ tape( 'if an environment supports `Float64Array`, the export is an alias for `Fl
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-float64array-support': isTrue,
+		'@stdlib/assert-has-float64array-support': isTrue,
 		'./float64array.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -68,7 +68,7 @@ tape( 'if an environment does not support `Float64Array`, the export is a polyfi
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-float64array-support': isFalse
+		'@stdlib/assert-has-float64array-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );
