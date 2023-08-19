@@ -1,7 +1,8 @@
-/*
+"use strict";var e=function(s,r){return function(){return r||s((r={exports:{}}).exports,r),r.exports}};var i=e(function(y,o){"use strict";var u=typeof Float64Array=="function"?Float64Array:void 0;o.exports=u});var l=e(function(q,a){"use strict";function p(){throw new Error("not implemented")}a.exports=p});var n=require("@stdlib/assert-has-float64array-support"),c=i(),f=l(),t;n()?t=c:t=f;module.exports=t;
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -15,12 +16,4 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-// TypeScript Version: 4.1
-
-// EXPORTS //
-
-/**
-* Typed array constructor which returns a typed array representing an array of double-precision floating-point numbers in the platform byte order.
-*/
-export = Float64Array;
+//# sourceMappingURL=index.js.map
