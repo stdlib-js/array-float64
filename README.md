@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-float64/tags). For example,
+
+```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@v0.1.0-esm/index.mjs';
 ```
 
@@ -1419,7 +1424,7 @@ var bool = it.next().done;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@v0.1.0-esm/index.mjs';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 
 var arr;
 var i;
