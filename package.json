@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-float64",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Float64Array.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-float64array-support": "^0.1.0"
+    "@stdlib/assert-has-float64array-support": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-has-property": "^0.1.1",
@@ -50,7 +50,7 @@
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-randi": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
-    "@stdlib/symbol-iterator": "^0.1.0",
+    "@stdlib/symbol-iterator": "^0.1.1",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
