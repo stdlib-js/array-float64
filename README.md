@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@v0.1.1-deno/mod.js';
 ```
 
 #### Float64Array()
@@ -1414,7 +1414,7 @@ var bool = it.next().done;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@v0.1.1-deno/mod.js';
 
 var arr;
 var i;
