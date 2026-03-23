@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`1edd771`](https://github.com/stdlib-js/stdlib/commit/1edd7712b2a114f8717a751714624f9e23af1bc4) - **bench:** refactor to use string interpolation in `array/float64` [(#11094)](https://github.com/stdlib-js/stdlib/pull/11094) _(by Partha Das, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
