@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-29)
+## Unreleased (2026-05-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`00885d3`](https://github.com/stdlib-js/stdlib/commit/00885d3e6afd8118ce2b6e5f7a1c544d5b6d4ffb) - **bench:** refactor to use string interpolation in `array` [(#11411)](https://github.com/stdlib-js/stdlib/pull/11411) _(by Karan Anand, Athan Reines)_
 -   [`1edd771`](https://github.com/stdlib-js/stdlib/commit/1edd7712b2a114f8717a751714624f9e23af1bc4) - **bench:** refactor to use string interpolation in `array/float64` [(#11094)](https://github.com/stdlib-js/stdlib/pull/11094) _(by Partha Das, Athan Reines)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Partha Das
 
 </section>
