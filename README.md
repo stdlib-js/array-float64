@@ -1465,6 +1465,7 @@ console.log( arr );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/array-buffer`][@stdlib/array/buffer]</span><span class="delimiter">: </span><span class="description">ArrayBuffer.</span>
+-   <span class="package-name">[`@stdlib/array-float16`][@stdlib/array/float16]</span><span class="delimiter">: </span><span class="description">float16Array.</span>
 -   <span class="package-name">[`@stdlib/array-float32`][@stdlib/array/float32]</span><span class="delimiter">: </span><span class="description">Float32Array.</span>
 -   <span class="package-name">[`@stdlib/array-int16`][@stdlib/array/int16]</span><span class="delimiter">: </span><span class="description">Int16Array.</span>
 -   <span class="package-name">[`@stdlib/array-int32`][@stdlib/array/int32]</span><span class="delimiter">: </span><span class="description">Int32Array.</span>
@@ -1555,6 +1556,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
+
+[@stdlib/array/float16]: https://github.com/stdlib-js/array-float16
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
