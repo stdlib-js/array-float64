@@ -1,4 +1,4 @@
-"use strict";var e=function(s,r){return function(){return r||s((r={exports:{}}).exports,r),r.exports}};var i=e(function(y,o){"use strict";var u=typeof Float64Array=="function"?Float64Array:void 0;o.exports=u});var l=e(function(q,a){"use strict";function p(){throw new Error("not implemented")}a.exports=p});var n=require("@stdlib/assert-has-float64array-support"),c=i(),f=l(),t;n()?t=c:t=f;module.exports=t;
+"use strict";var e=function(s,r){return function(){try{return r||s((r={exports:{}}).exports,r),r.exports}catch(u){throw r=0,u}}};var i=e(function(q,o){"use strict";var p=typeof Float64Array=="function"?Float64Array:void 0;o.exports=p});var l=e(function(x,a){"use strict";function n(){throw new Error("not implemented")}a.exports=n});var c=require("@stdlib/assert-has-float64array-support"),f=i(),v=l(),t;c()?t=f:t=v;module.exports=t;
 /**
 * @license Apache-2.0
 *
